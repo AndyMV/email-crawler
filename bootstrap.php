@@ -5,7 +5,7 @@ require_once "vendor/autoload.php";
 use Doctrine\ORM\Tools\Setup;
 use Doctrine\ORM\EntityManager;
 
-$entidades = array("src/");
+$entidades = array("");
 $isDevMode = true;
 
 $dbParams = array(
